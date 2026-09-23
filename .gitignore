@@ -1,0 +1,17 @@
+# Build output
+build/
+cmake-build-*/
+
+# Compiled binaries
+*.exe
+*.o
+*.obj
+*.out
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# OS junk
+Thumbs.db
+.DS_Store
