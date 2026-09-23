@@ -36,5 +36,5 @@ Vec2 projectPoint(const Intrinsics& K, const Vec3& Pc) {
 double pixelError(const Vec2& a, const Vec2& b) {
     const double dx = a.u - b.u;
     const double dy = a.v - b.v;
-    return std::sqrt(dx*dx + dy*dy);
+    return std::hypot(dx, dy);
 }
